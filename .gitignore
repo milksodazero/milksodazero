@@ -1,0 +1,12 @@
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+**/logs/*
+!**/logs/.gitkeep
+**/reports/*
+!**/reports/.gitkeep
+
+!projects/hardware-validation/reports/
+!projects/hardware-validation/reports/*.png
